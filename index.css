@@ -1,0 +1,122 @@
+img{
+    width:90%;
+    height: auto;
+}
+.header{
+    position:absolute;
+        height: 300px;
+        width:100%;
+        background-image: url("appunti.png");
+        background-color: rgb(0,0,0,0.7);
+        background-blend-mode:overlay;
+        text-shadow: 0px 0px 10px rgb(0,0,0,0.7);
+    z-index:-1;
+}
+h2{
+    text-align: center;
+    padding:15px;
+}
+.testo{
+    margin:0;
+}
+.testo h1{
+    color:white;
+    margin:auto;
+    vertical-align: middle;
+    width:100%;
+}
+h1{
+    font-size:80px;
+padding-top:40px;
+    text-align: center;
+}
+.contenitore{
+    
+    width:50%;
+    margin:auto;
+    margin-top:300px;
+}
+.contenitore .intro{
+    width:100%;
+    padding-top:50px;
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+.griglia h3{
+    text-align: left;
+    padding-left:20px
+}
+.griglia {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .griglia2 {
+    margin-top:20px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto auto;
+  }
+.griglia_foto{
+    grid-column:1;
+    border-right: 1px solid black;
+  }
+.griglia_testo{
+    grid-column:1/4;
+}
+.spiegazione{
+    padding-left:20px;
+    padding-right:20px;
+    text-align: justify;
+    font-size:20px;
+}
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+@media screen and (max-width: 1200px)
+{
+    .header{
+        height: 220px;
+    }
+    h1{
+        font-size:65px;
+    }
+    .contenitore{
+        margin-top:220px;
+    width:90%;    }
+    .spiegazione{
+        padding-left:5px;
+        padding-right:5px;
+        text-align: justify;
+        font-size:15px;
+    }
+}
+@media screen and (max-width: 900px)
+{
+
+    .header{
+        width:100%;
+    }
+    .header{
+        height: 150px;
+    }
+    h1{
+        font-size:30px;
+    }
+    .contenitore{
+        margin-top:150px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .spiegazione{
+        padding-left:5px;
+        padding-right:5px;
+        text-align: justify;
+        font-size:12px;
+    }
+}

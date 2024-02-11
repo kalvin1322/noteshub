@@ -1,0 +1,52 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+.piaciuti{
+  width:70%;
+  margin:auto;
+  margin-top:100px;
+}
+header h2{
+  text-align:center;
+}
+th{
+  background-color: #1d1b31;
+  color: rgb(235,235,235);
+  text-shadow: 0px 0px 5px rgb(0,0,0,0.2);
+}
+table a{
+  color: rgb(0,0,0,0.7);
+  text-decoration: none;
+  text-shadow: 0px 0px 5px rgb(0,0,0,0.2);
+}
+table a:visited{
+  color: rgb(0,0,0,0.7);
+  text-decoration: none;
+}
+table a:hover{
+  color:#1d1b31;
+}
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+  .piaciuti{
+    width:95%;
+  }
+  header{
+    margin:auto;
+    width:90%;
+  }
+  h2{
+    
+    font-size: 18px;
+  }
+}
